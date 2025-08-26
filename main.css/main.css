@@ -125,6 +125,7 @@ hr {
   background-color: #222;
   top: 140px;
 }
+
 .hangman-draw .the-man .legs {
   display: none;
 }
@@ -145,6 +146,9 @@ hr {
   background-color: #222;
   top: 220px;
 }
+
+
+/* .............. */
 .hangman-draw.wrong-1 .the-draw {
   display: block;
 }
@@ -285,5 +289,8 @@ hr {
 }
 .winDiv {
     height: 72px;
+}
+.letters {
+  padding: 0px;
 }
 }
