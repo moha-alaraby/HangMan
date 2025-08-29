@@ -34,12 +34,12 @@ hr {
   flex: 1;
   background-color: #F8F8F8;
   padding: 20px;
-  height: 324px;
+  height: 285px;
   position: relative;
 }
 .hangman-draw .the-draw {
   width: 60px;
-  height: 280px;
+  height: 100%;
   border-bottom: 4px solid #222;
   position: relative;
   margin: auto;
@@ -292,5 +292,14 @@ hr {
 }
 .letters {
   padding: 0px;
+}
+.letters .letter-box {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+}
+.letters-guess {
+    min-height: 63px;
+    padding: 0;
 }
 }
